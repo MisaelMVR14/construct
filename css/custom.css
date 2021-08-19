@@ -1,0 +1,916 @@
+/*--------------------------------------------------------------
+  Template Name: Simply Construction HTML Template.
+  Template URI: #
+  Description: Simply Construction is a unique website template designed in HTML with a simple & beautiful look. There is an excellent solution for creating clean, wonderful and trending material design corporate, corporate any other purposes websites.
+  Author: HasTech
+  Author URI: https://themeforest.net/user/hastech/portfolio
+  Version: 1.0
+---------------------------------------------------------------*/
+
+/* ----------------------------------------------------
+	You can put your custom css code here: 
+-------------------------------------------------------*/
+:root{
+  --color-primary: #ed3237;
+  --color-secundary: #9a9a9a;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+:focus {
+  outline: -webkit-focus-ring-color none;
+}
+input:focus {
+  background: #fff;
+  border: 1px solid var(--color-secundary);
+}
+
+
+/* Centrar Elementos */
+.centrar,
+.vertical {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.vertical {
+  flex-flow: column nowrap;
+}
+
+/* Centrar Contenido */
+.max-width {
+  max-width: 1170px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Seleccion */
+::selection {
+  background: var(--color-primary);
+}
+#scrollUp {
+  background: var(--color-primary) none repeat scroll 0 0;
+      display: none !important;
+}
+/***** HEADER *****/
+
+/* Horarios */
+.bg__cat--1 {
+  /*background-color: var(--color-primary);*/
+  background-color: #C22B14;
+}
+
+.heaher__top__left li {
+  font-size: 13px;
+}
+.heaher__top__left>.header__text_años {
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 15px;
+}
+.años_items{
+  text-transform: uppercase;
+  font-size: 22px;
+}
+.left-clock{
+  font-weight: bold;
+}
+
+/* Menu */
+.sticky__header.scroll-header{
+  padding: 1em 0;
+  background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+}
+.sticky__header.scroll-header .logo a img {
+  max-width: 92px;
+}
+
+
+/* Redes Sociales */
+.buttons-social{
+  text-align: right;
+  margin-top: 10px;
+}
+
+.social {
+      font-size: 25px;
+}
+
+.social:hover {
+  color: #000;
+}
+
+.social:focus {
+  color: #fff;
+}
+.logo{
+  width: 80%;
+}
+
+.heaher__top__btn a {
+  background: var(--color-secundary) none repeat scroll 0 0;
+}
+
+/* Header Menu */
+.main__menu>li>a {
+  text-transform: uppercase;
+  color: var(--color-primary);
+  font-weight: 700;
+  font-size: 11.9px;
+}
+
+.main__menu li.drop ul.width-ul {
+  width: 265px;
+}
+
+.main__menu>li>a:hover{
+  color: var(--color-secundary);
+  transition: .3s;
+}
+
+.main__menu>li:hover>a {
+  color: var(--color-secundary);
+}
+
+.main__menu li.drop ul.dropdown li:hover>a {
+  background: #fafafa none repeat scroll 0 0;
+  color: #000;
+}
+
+/* Slider */
+.slider__activation__wrap.owl-theme .owl-nav [class*="owl-"]:hover {
+  background: var(--color-primary) none repeat scroll 0 0;
+}
+
+[data--black__overlay="6"]:before {
+  opacity: 0.4;
+}
+
+/*Section Prourbanas */
+.prourbanas-essence {
+  background: #f5f5f5;
+  /* flex-wrap: wrap; */
+}
+.essence-figure1 {
+  width: 40%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.prourbanas-main {
+  flex: 1 1 50%;
+  width: 50%;
+}
+
+.essence-paragraphs {
+  flex: 1 1 50%;
+  padding-left: 3em;
+  padding-right: 3em;
+  margin-bottom: 1.5em;
+}
+
+.essence-description {
+  margin-bottom: 1.5em;
+  font-size: 14px;
+  color: #666;
+  text-align: justify;
+}
+
+.essence-btn {
+  background: var(--color-primary);
+  font-size: 15px;
+  border-radius: 10px;
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+  transition: .3s all ease-in-out;
+  outline: none;
+}
+
+.essence-btn:hover {
+  color: #fff;
+}
+.descrip--title_pro{
+  font-weight: bold;
+}
+.desc_pro {
+  display: none;
+}
+
+/* Slider Prourbana */
+.slick-prev,
+.slick-next {
+  top: 45%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 60px;
+}
+
+.slick-prev {
+  left: 0;
+  z-index: 3;
+}
+
+.slick-next {
+  right: 38px;
+}
+
+
+
+
+/* Proyectos en Venta */
+.bg__gray {
+  padding: 30px 0;
+}
+
+.service-main {
+  margin-top: 30px;
+}
+
+/* Proyectos Realizados */
+.ptb--150 {
+  padding: 30px 0;
+}
+.realizados__div_div{
+  margin-top: 30px;
+}
+.section__title h2.title__line {
+  color: var(--color-secundary);
+  font-size: 30px;
+}
+
+.service-title{
+  text-align: center;
+}
+
+.service-main{
+  margin-left: auto;
+}
+
+.text--theme {
+  color: var(--color-primary);  
+}
+.text--theme2 {
+  /*color: var(--color-primary);*/
+  color: #FFF;
+}
+
+.service__hover::before {
+  background: #000 none repeat scroll 0 0;
+}
+
+.service__action a:hover {
+  color: var(--color-primary);
+}
+
+/* Proyectos que nos respaldan */
+.dreams {
+  min-height: 370px;
+  background: linear-gradient(to bottom, rgba(248,80,50,1) 0%, rgba(246,41,12,1) 36%, rgba(246,41,12,1) 62%, rgba(240,47,23,1) 79%, rgba(209,27,11,1) 100%);
+ 
+}
+
+/*.dreams::before {
+  content: '';
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  width: 100%;
+  height: 350px;
+  z-index: 1;
+}*/
+
+.dreams-header,
+.dreams-content {
+  position: relative;
+  z-index: 2;
+}
+
+.dreams-header {
+  text-align: center;
+  margin-bottom: 19px;
+  padding-top: 3em;
+}
+
+.dreams-title {
+  font-size: 21px;
+  text-transform: uppercase;
+  position: relative;
+  display: inline-flex;
+  margin-bottom: 10px;
+  padding-bottom: 14px;
+}
+
+.dreams-title2 {
+  color: #fff;
+}
+
+.dreams-title>span {
+  font-size: 30px;
+  color: var(--color-primary);
+  font-weight: 600;
+}
+
+.dreams-title>.span-color {
+  color: #fff;
+  display: block;
+}
+
+.dreams-title::after {
+  content: '';
+  height: 3px;
+  width: 100%;
+  border-radius: 5px;
+  background: var(--color-primary);
+  position: absolute;
+  bottom: 0;
+}
+
+.dreams-title2::after {
+  content: '';
+  height: 3px;
+  width: 100%;
+  border-radius: 5px;
+  background: #fff;
+  position: absolute;
+  bottom: 0;
+}
+
+.dreams-description {
+  margin: 0;
+  color: #fff;
+}
+
+
+/* Sueños Realizados */
+.content__figure {
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 100px;
+  background: #fff;
+  height: 100px;
+  width: 100px;
+}
+
+.content__figure__img {
+  width: 75%;
+}
+
+
+.icono_items {
+    /* ICONOS */
+  background: #ffb344;
+  border-radius: 35px;
+}
+/* .content-trust,
+.content-personal,
+.content-flexibility {
+  flex-basis: calc(100% / 3);
+} */
+
+.content-title {
+  text-align: center;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-size:18px;
+}
+.title_numero{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:35px;
+}
+.content-description {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.content-span {
+  display: block;
+  color: #fff;
+  font-weight: 600
+}
+.span-blo{
+  display: block;
+}
+
+/* Proyectos Realizados */
+.project__hover__info {
+  background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
+}
+.project__action h2 a:hover {
+  color: var(--color-primary);
+}
+.action__span{
+  display: block;
+}
+
+/* Proyectos que nos respaldan */
+.our-clients {
+  margin-bottom: 25px;
+}
+
+.our-clients .dreams-header {
+  /*margin-bottom: 47px;*/
+}
+
+.clients-figure {
+  height: 97px;
+  padding: 0 1em;
+}
+
+.clients-figure>img {
+  height: 100%;
+  object-fit: contain;
+}
+
+.clients-figure:hover {
+  transition: .5s all ease-in-out;
+  filter: grayscale(100%);
+}
+
+/* Contactanos */
+.htc__testimonial__area{
+  /* padding: 1.5em 0 0 0; */
+ padding: 1em 0 0 .5em;
+}
+
+.htc__btn {
+  background: var(--color-primary) none repeat scroll 0 0;
+  border: 1px solid var(--color-primary);
+  border-radius: 10px;
+  outline: none;
+}
+.htc__btn:hover {
+  border: 1px solid var(--color-primary);
+  background: transparent;
+  color: var(--color-primary);
+}
+.htc__btn:focus{
+  color: var(--color-primary);
+}
+.container-img_item {
+  z-index: 2;
+}
+
+.single__cl__form {
+  margin-bottom: 10px;
+}
+.htc__testimonial__area .section__title p {
+  margin-top: 10px;
+}
+.section__title.text-left {
+  margin-bottom: 20px;
+}
+.single__cl__message textarea {
+  margin-bottom: 10px;
+}
+/* .img_contac::before{
+  content: '';
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  width: 100%;
+  height: 340px;
+  z-index: 1;
+} */
+.img_contac{
+  border: 10px solid #fff
+  /* border-left: 15px solid #fff;
+  border-right: 15px solid #fff; */
+}
+
+/* FOOTER */
+[data--1f2d30__overlay]:before {
+  background: var(--color-primary);
+}
+.footer__top{
+  padding: 15px 0;
+  background: rgba(232,57,30,1);
+  background: -moz-linear-gradient(top, rgba(232,57,30,1) 0%, rgba(240,43,29,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(232,57,30,1)), color-stop(100%, rgba(240,43,29,1)));
+  background: -webkit-linear-gradient(top, rgba(232,57,30,1) 0%, rgba(240,43,29,1) 100%);
+  background: -o-linear-gradient(top, rgba(232,57,30,1) 0%, rgba(240,43,29,1) 100%);
+  background: -ms-linear-gradient(top, rgba(232,57,30,1) 0%, rgba(240,43,29,1) 100%);
+  background: linear-gradient(to bottom, rgba(232,57,30,1) 0%, rgba(240,43,29,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8391e', endColorstr='#f02b1d', GradientType=0 );
+}
+.column-footer_cen{
+  text-align: center;
+}
+.left-copyright p{
+  color: #fff;
+}
+.right__contac2{
+  margin-top: 4em;
+}
+.right__contac2 .footer-bulletin__description,
+.descrip__item,
+.item___itemss {
+  color: #fff;
+}
+
+/* Evolucion Media */
+.dw__theme {
+  background: var(--color-primary);
+  background: #fff;
+}
+
+.dw__inner span {
+  color: #000;
+  font-weight: bold;
+  /* display: block; */
+}
+
+.dw-logo {
+  margin-left: 7px;
+}
+.logo_evo {
+  margin-left: -2px;
+}
+.logo_evolucion{
+  width: 80%;
+}
+/* Nosotros */
+.descr_nosotros_nos{
+  display: none;
+}
+.section__title2>.nosotros_text {
+  text-align: justify;
+  width: 70%;
+}
+.nosotros_text_mv{
+  text-align: justify;
+}
+.img-valores {
+  margin: auto;
+  width: 40%;
+}
+.nosotros__img-v-m{
+  margin-top: 8em;
+  margin-bottom: 8em;
+}
+.main_valores{
+  padding: 0;
+}
+.valores_container{
+  margin: 2.5em 0;
+}
+.valores_items{
+  font-size: 35px;
+}
+.title_valore_h2{
+  margin-bottom: 1em;
+}
+.img_logo_nosotros_iten{
+  width: 10%;
+}
+
+/* Lilas */
+.fond_lilas{
+    height: 50px;
+    background: var(--color-primary);
+}
+.bradcaump__inner h2.lilas_proy_item {
+  font-size: 35px;
+}
+.main-proyectos-lilas{
+  padding: 40px 0;
+}
+.detalles_lilas{
+  margin-top: 30px;
+  text-align: center;
+}
+.lilas_items{
+  /*justify-content: center;*/
+  justify-content: start;
+}
+.detalles_lillas_items{
+  padding: 0 3em 1.5em;
+}
+.font__bold{
+  text-align: left;
+}
+.detalles_lillas_des{
+  padding: 31px 0;
+  width: 45%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.ico_descargar{
+  margin-right: .5em;
+}
+.detalles_lillas_des>.lillas_des_h2 {
+    color: var(--color-primary);
+}
+.lillas_des_h2>a:hover {
+  color: var(--color-secundary);
+}
+.lillas_des_h2>a:focus {
+  color: var(--color-secundary);
+}
+.service__thumb a .img_laspalmas_venta,
+.project__thumb a .img_laspalmas_venta,
+.img_laspalmas_venta {
+  width: 40%;
+  opacity: 0.5;
+}
+.service__thumb a .img_laslilas_venta,
+.project__thumb a .img_laslilas_venta,
+.img_laslilas_venta {
+  width: 30%;
+  opacity: 0.5;
+}
+/* LAS PALMAS DEL GOLF */
+.pro__dtl__inner>.palmasgolf_proy_h2 {
+  margin-bottom: 23px;
+}
+.palmasgolf_proy_p{
+  margin-bottom: 23px;
+  padding: 0 1em;
+  text-align: justify;
+}
+.golf_container__img{
+  /*margin-top: 100px;*/
+}
+
+/* Parque */
+.colummna-parque{
+  margin-bottom: 1em;
+}
+/* Geranios */
+.logo_geranios{
+  width: 38%;
+  margin-bottom: 23px;
+}
+/* VISITAS */
+.contador_visitas{
+  text-align: left;
+}
+.slider__inner_title span {
+  display: block;
+  font-size: 66px;
+  font-weight: 800;
+  line-height: 55px;
+  margin-top: 24px;
+}
+
+.slider__container h4,
+.slider__container p,
+.slider__container .slider__btn {
+  animation-duration: .6s;
+  animation-fill-mode: backwards;
+  animation-name: fadeOutLeft;
+}
+
+.slider__container .active h4,
+.slider__container .active p,
+.slider__container .active .slider__btn {
+  animation-delay: .4s;
+  animation-duration: .6s;
+  animation-fill-mode: backwards;
+  animation-name: fadeInLeft;
+}
+
+.slider__container .active h4,
+  {
+  animation-delay: .6s;
+}
+
+.slider__container .active p,
+  {
+  animation-delay: 1s;
+}
+
+.slider__container .active .slider__btn {
+  animation-delay: 1s;
+}
+
+/* Promociones */
+.container-promo_derecha{
+  text-align: justify;
+}
+
+/* Presupuesto */
+.calculator-title{
+  color: black;
+  border-left: 4px solid var(--color-primary);
+  padding: .55em 1em;
+  text-transform: uppercase;
+  font-family: var(--vhHead-two);
+  font-size: 27px;
+  margin: 1em 0 7px 0;
+}
+.calculator {
+  width: 97%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 1.5em;
+  border: 3px solid #e4e6ea;
+  font-family: var(--vhHead-three);
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.calculator-main{
+  display: flex;
+}
+.calculator {
+  flex-basis: 65%;
+}
+.img-lateral-calculator {
+  flex-basis: 35%;
+  border-left: 5px solid #fff;
+}
+.items-input-calculator{
+  text-align: center;
+}
+.calculator-label{
+  text-align: center;
+  /* flex-basis: calc((100% - 3%) / 8); */
+  margin-right: 2%;
+}
+.calculator-label span{
+  display: block;
+}
+.btns{
+  text-align: center;
+}
+.resultados{
+  margin: 1em;
+}
+.resultados input{
+  width: 50%;
+  margin: .3em;
+}
+.interes>input {
+  margin-left: 1.5em;
+}
+/* MENU */
+.mean-container a.meanmenu-reveal{
+     border: 2px solid var(--color-secundary);
+     color: var(--color-secundary);
+}
+.mean-container a.meanmenu-reveal span{
+  background: var(--color-secundary) none repeat scroll 0 0;
+}
+.mean-container .mean-nav{
+  background: var(--color-primary) none repeat scroll 0 0;
+}
+.mean-container .mean-nav ul li a.mean-expand:hover{
+  background: var(--color-secundary);
+}
+.tereno-text_des{
+  color: #fff;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.main-terreno{
+  padding: 0;
+}
+
+
+.sticky {
+  position: fixed;
+  display: block;
+  top: 0;
+  margin: 0;
+  transition: top .3s;
+  background: white;
+  z-index: 9;
+  width: 100%;
+}
+.mostrar {
+  top: 0;
+}
+
+.ocultar {
+  top: -100px;
+}
+.reducir-logo{
+  height: 70px;
+  line-height: 70px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.reducir-logo-img{
+  width: 50%;
+}
+.centrar-logo{
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+.height-line{
+  line-height: 70px !important;
+  height: 70px !important;
+}
+
+/* cambios */
+.footer-copyri{
+  margin-top: 1.5em;
+}
+.left__img{
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.items-copyright{
+  text-align: center;
+}
+.title-conta{
+  margin: .5em 0;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.items-copyright>p{
+  color: #fff;
+  font-size: 10px;
+}
+.footer-contacto{
+  padding: 0;
+}
+.contacto_items{
+  padding: 0;
+}
+.pro__dtl__inner>.resi_alameda_ma {
+  margin-bottom: 2em;
+}
+.section_prom_ger{
+  background: #fff;
+  padding-bottom: 5em;
+}
+.section_prom_lil{
+  background: #f1f1f1;
+}
+.footer-contt{
+  margin-bottom: 1em;
+}
+.map-class{
+  width: 100%;
+}
+.valores-div_cl{
+  margin-bottom: 2em;
+}
+.titleinformes-ven{
+  margin: .5em 1em;
+}
+
+.reguest__quote{
+  position: relative;
+  padding-top: 0;
+  margin-bottom: 20px;
+}
+.panel__confirmacion{
+  position: absolute;
+  height: 0%;
+  width: 100%;
+  background: #fff;
+  z-index: 3;
+  opacity: 0;
+  transition: .3s all ease-in-out;
+}
+.active__panel__confirmacion{
+  height: 100%;
+  opacity: 1;
+
+}
+.imagen__confirmacion{
+  width: 40%;
+}
+.panel__confirmacion>h4{
+  text-align: center;
+  font-size: 20px;
+}
+.panel__confirmacion>h4>span{
+  display: block;
+}
+.button__cancelar{
+  color: var(--color-primary);
+  font-weight: bold;
+}
+.contador-vistas{
+  position: relative;
+  justify-content: flex-start;
+}
+.contador-vistas::before{
+  content: '';
+  position: absolute;
+  background: transparent;
+  width: 100%;
+  height: 100%;
+}
+.numero_visitantes-title{
+  font-weight: bold;
+  color: #000;
+}
